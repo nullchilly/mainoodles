@@ -204,6 +204,13 @@ body.nav-active { overflow: hidden; }
   #TYPOGRAPHY
 \*-----------------------------------*/
 
+.headline-0 {
+  color: var(--white);
+  font-family: var(--fontFamily-forum);
+  font-weight: var(--weight-bold);
+  line-height: var(--lineHeight-2);
+}
+
 .display-1,
 .headline-1,
 .headline-2,
@@ -906,7 +913,7 @@ body.nav-active { overflow: hidden; }
   #SERVICE
 \*-----------------------------------*/
 
-.service .section-title { margin-block-end: 16px; }
+.service .section-title { margin-block-end: 20px; }
 
 .service .section-text { margin-block-end: 40px; }
 
