@@ -383,6 +383,11 @@ body.nav-active { overflow: hidden; }
   color: var(--black);
 }
 
+.btn-thirdmoment {
+  background-color: var(--gold-crayola);
+  color: var(--black);
+}
+
 .btn-secondary::before { background-color: var(--smoky-black-1); }
 
 .btn-secondary .text-2 { color: var(--white); }
@@ -806,6 +811,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .hero .slider-bg {
+  opacity: 40%;
   position: absolute;
   top: 0;
   left: 0;
@@ -1477,9 +1483,16 @@ textarea.input-field {
    * TOPBAR
    */
 
+  .logo {
+    width: 160;
+    height: 50;
+  }
+
   .topbar {
     display: block;
     position: fixed;
+    background-color: black;
+    opacity: 70%;
     top: 0;
     left: 0;
     width: 100%;
