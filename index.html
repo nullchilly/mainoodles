@@ -254,9 +254,9 @@
       <a class="btn btn-thirdmoment">
         <form>
           <select id="lang-switch">
-              <option value="en" selected>English</option>
+              <option value="en">English</option>
               <option value="vi">Tiếng Việt</option>
-              <option value="de">Deutsch</option>
+              <option value="de" selected>Deutsch</option>
           </select>
         </form>
 
@@ -1541,7 +1541,7 @@
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script>
   $('[lang]').hide(); // hide all lang attributes on start.
-  $('[lang="en"]').show(); // show just Korean text (you can change it)
+  $('[lang="de"]').show(); // show just Korean text (you can change it)
   $('#lang-switch').change(function () { // put onchange event when user select option from select
       var lang = $(this).val(); // decide which language to display using switch case. The rest is obvious (i think)
       switch (lang) {
